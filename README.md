@@ -37,5 +37,11 @@ All models are trained on preprocessed textual data (tokenized and padded) and e
 | RNN   | 82.99         |
 | GRU   | 88.53         |
 
-**Conclusion**: The CNN model slightly outperforms the others in terms of accuracy, followed closely by GRU. RNN performs well but is comparatively less accurate for this task.
+**Conclusion**: 
+The CNN model achieved the highest accuracy at 88.95%, demonstrating its strength in capturing local patterns and features from text data.
 
+The GRU model also performed very well, with an accuracy of 88.53%, showcasing its ability to retain important information over longer sequences, though slightly less effective than CNN in this case.
+
+The RNN model, while effective for sequence-based tasks, lagged behind with 82.99% accuracy, highlighting its limitations in handling longer dependencies compared to GRU and CNN.
+
+**In conclusion, CNN is the most suitable model for this sentiment analysis task, followed closely by GRU.**
